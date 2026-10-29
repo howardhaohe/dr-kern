@@ -1,0 +1,14 @@
+name: dr-kern
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - ipykernel
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  # For packages only available via PyPI, declare under pip:
+  # - pip:
+  #     - some-pypi-package
